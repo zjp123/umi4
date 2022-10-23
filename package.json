@@ -1,13 +1,14 @@
 {
   "private": true,
   "scripts": {
-    "dev": "umi dev",
-    "build": "umi build",
-    "postinstall": "umi setup",
-    "setup": "umi setup",
+    "dev": "umipro dev",
+    "build": "umipro build",
+    "postinstall": "umipro setup",
+    "setup": "umipro setup",
     "start": "npm run dev"
   },
   "dependencies": {
+    "@umijs/pro": "^4.0.0-beta.16",
     "umi": "^4.0.5"
   },
   "devDependencies": {
